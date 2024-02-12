@@ -19,6 +19,7 @@ body {
     display: table;
     min-height:100vh;
    height:80%;
+     box-sizing: border-box;
 }
 
 .buttons-container {
