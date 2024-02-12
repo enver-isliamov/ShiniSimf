@@ -809,6 +809,59 @@ font-display: swap;
      m-stretchBackground 
     
     ">
+   <!-- ----------------------------------------------- -->
+    <div class="container">
+        <div class="buttons-container">
+            <!-- Кнопки с переменными Radius -->
+            <button class="radius-button" data-radius="125">R13</button>
+            <button class="radius-button" data-radius="125">R14</button>
+            <button class="radius-button" data-radius="150">R15</button>
+            <button class="radius-button" data-radius="150">R16</button>
+            <button class="radius-button" data-radius="175">R17</button>
+            <button class="radius-button" data-radius="175">R18</button>
+            <button class="radius-button" data-radius="200">R19</button>
+            <button class="radius-button" data-radius="200">R20</button>
+            <button class="radius-button" data-radius="225">R21</button>
+            <button class="radius-button" data-radius="225">R22</button>
+        </div>
+        
+        <!-- Рендж слайдер для Срока хранения -->
+        <label for="srokSlider">Срок хранения: <span id="srokValue">3</span> мес.</label>
+        <input type="range" id="srokSlider" min="1" max="8" value="3">
+        
+        <!-- Рендж слайдер для Количества шин -->
+        <label for="kolSlider">Количество шин: <span id="kolValue">4</span> шт.</label>
+        <input type="range" id="kolSlider" min="1" max="8" value="4">
+        
+        <!-- Тумблер "С диском" -->
+        <label for="diskToggle">С диском</label>
+        <input type="checkbox" id="diskToggle">
+        
+        <!-- Строка с названием "Цена за хранение" -->
+        <div class="price-container">
+            <p>Цена за хранение: <span id="summaValue">0</span> руб.</p>
+        </div>
+        
+        <!-- Дополнительные поля -->
+        <label for="dateInput">Дата встречи:</label>
+        <input type="date" id="dateInput">
+        
+        <label for="phoneInput">Телефон:</label>
+        <input type="tel" id="phoneInput" required>
+        
+        <label for="nameInput">Имя:</label>
+        <input type="text" id="nameInput">
+        
+        <label for="addressInput">Адрес вывоза:</label>
+        <input type="text" id="addressInput">
+        
+        <!-- Кнопка "Заказать услугу" -->
+        <button id="submitBtn">Заказать услугу</button>
+    </div>
+
+    <script> src="https://enver-isliamov.github.io/Calkulanding/script.js"</script>
+
+   <!-- ----------------------------------------------- -->
     <div class="m-wrapper">
         <div class="m-headers-wrapper">
             
