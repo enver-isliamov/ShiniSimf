@@ -9,17 +9,17 @@ body {
 }
 
 .container {
-    text-align: center;
+    text-align: адуч;
     background-color: #fff;
     padding: 20px;
     border-radius: 2px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 80px;
-    width: 80%;
+    width: 100%;
     display: table;
     min-height:100vh;
-   height:80%;
-     box-sizing: border-box;
+   height:100%;
+   display: grid;
 }
 
 .buttons-container {
